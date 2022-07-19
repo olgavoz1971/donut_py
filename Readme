@@ -1,0 +1,22 @@
+Quick Start:
+1) Install SAOImage DS9 https://sites.google.com/cfa.harvard.edu/saoimageds9
+2) Make scripts donut_gui.py and ds9_start.sh executable 
+3) Launch donut_gui.py
+4) Push "Select fits" and select it
+
+5)
+- In the ds9 window select a single star using "circle region"
+- Click "From ds9" button
+     or
+- fill xc,yc entries
+- click "From xc,yc"
+
+6) Click "Fit"
+
+Important
+a) copy (or link) donut_KGO.par to donut.par for kgo*.fits and donut_orig.par to donut.par
+for focus_orig.fits processing. Do this before running donut_gui.py
+b) Toggle INTRA/EXTRA button to select intra/extra-focus images
+
+
+
